@@ -1,4 +1,4 @@
-Job Portal Application
+#Job Portal Application
 
 A web-based job portal built using Spring Boot and Thymeleaf where users can create different profiles as Job Seekers or Recruiters. Job Seekers can search for, apply to, and save jobs, while Recruiters can post jobs, view applicants' resumes, and manage job listings.
 This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic HTML content, HTML, CSS, and JavaScript for the frontend.
