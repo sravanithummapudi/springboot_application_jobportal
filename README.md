@@ -12,15 +12,16 @@ This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic H
 - View applied jobs and their statuses.
 
 ## Recruiter Features:
--Create and manage job listings.
--View applications from Job Seekers.
--Download resumes submitted by Job Seekers.
--Track and manage the applicants for each job post.
+- Create and manage job listings.
+- View applications from Job Seekers.
+- Download resumes submitted by Job Seekers.
+- Track and manage the applicants for each job post.
 
 ## Technology Stack
--Backend: Spring Boot (Java)
--Frontend: HTML, CSS, Thymeleaf
--Database: MySQL (or any other database of your choice)
--Security: Spring Security (for authentication and authorization)
+- Backend: Spring Boot (Java)
+- Frontend: HTML, CSS, Thymeleaf
+- Database: MySQL (or any other database of your choice)
+- Security: Spring Security (for authentication and authorization)
 
 ## Application Overview
+![image](https://github.com/user-attachments/assets/28528f75-4dcd-481c-b0b6-72078ed92f12)
