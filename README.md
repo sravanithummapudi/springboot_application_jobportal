@@ -5,11 +5,11 @@ This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic H
 
 # Features
 ## Job Seeker Features:
-Create and update a Job Seeker profile.
-Search for jobs by title, location, or type.
-Apply to jobs directly on the platform.
-Save jobs for future reference.
-View applied jobs and their statuses.
+- Create and update a Job Seeker profile.
+- Search for jobs by title, location, or type.
+- Apply to jobs directly on the platform.
+- Save jobs for future reference.
+- View applied jobs and their statuses.
 
 ## Recruiter Features:
 Create and manage job listings.
