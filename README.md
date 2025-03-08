@@ -3,6 +3,8 @@
 A web-based job portal built using Spring Boot and Thymeleaf where users can create different profiles as Job Seekers or Recruiters. Job Seekers can search for, apply to, and save jobs, while Recruiters can post jobs, view applicants' resumes, and manage job listings.
 This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic HTML content, HTML, CSS, and JavaScript for the frontend.
 
+## Watch the video below to view Whole application:-
+
 # Features
 ## Job Seeker Features:
 - Create and update a Job Seeker profile.
@@ -31,7 +33,7 @@ Recruiter Dashboard:-
 Setting up Recruiter Profile:-
 ![image](https://github.com/user-attachments/assets/43cb03b3-047e-4436-9f44-ae9ce37d9e59)
 
-## Watch the video below to view Whole application:-
+
 
 
 
