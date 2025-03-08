@@ -4,6 +4,7 @@ A web-based job portal built using Spring Boot and Thymeleaf where users can cre
 This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic HTML content, HTML, CSS, and JavaScript for the frontend.
 
 ## Watch the video below to view Whole application:-
+https://drive.google.com/file/d/1V4SIUURwS7cyr2HKVuLr9Cdq4KOpXz9K/view?usp=sharing
 
 # Features
 ## Job Seeker Features:
