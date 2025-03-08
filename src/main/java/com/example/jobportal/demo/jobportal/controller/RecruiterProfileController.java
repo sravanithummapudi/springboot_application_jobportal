@@ -31,6 +31,10 @@ public class RecruiterProfileController {
         this.usersRepository = usersRepository;
         this.recruiterProfileService = recruiterProfileService;
     }
+
+    //bug here if the recruiter doesn't set up his profile then w ecan't bind profile object to it and it causes error
+    //To fix this, you need to make sure that a profile object is always available in the model.
+    // Even if there is no existing profile in the database, you can create an empty profile object to pass to the form.
     @GetMapping("/")
     public String recruiterProfile(Model model) {
 
@@ -42,15 +46,13 @@ public class RecruiterProfileController {
             Optional<RecruiterProfile> recruiterProfile = recruiterProfileService.getOne(users.getUserId());
 
             if (!recruiterProfile.isEmpty())
-                model.addAttribute("profile", recruiterProfile.get());
+                model.addAttribute("profile", recruiterProfile.orElse(new RecruiterProfile()));
 
         }
 
         return "recruiter_profile";
-
-
-
     }
+
 
     @PostMapping("/addNew")
    //creates new recruiter profile based on form data
