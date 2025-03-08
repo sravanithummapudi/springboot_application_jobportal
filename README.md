@@ -9,7 +9,7 @@ This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic H
 - Search for jobs by title, location, or type.
 - Apply to jobs directly on the platform.
 - Save jobs for future reference.
-- View applied jobs and their statuses.
+- View applied jobs and their statuse.
 
 ## Recruiter Features:
 - Create and manage job listings.
@@ -20,8 +20,20 @@ This project uses Spring Boot for the backend, Thymeleaf for rendering dynamic H
 ## Technology Stack
 - Backend: Spring Boot (Java)
 - Frontend: HTML, CSS, Thymeleaf
-- Database: MySQL (or any other database of your choice)
+- Database: MySQL 
 - Security: Spring Security (for authentication and authorization)
 
 ## Application Overview
+Home page:-
 ![image](https://github.com/user-attachments/assets/28528f75-4dcd-481c-b0b6-72078ed92f12)
+Recruiter Dashboard:-
+![image](https://github.com/user-attachments/assets/8eb4aaab-bfd2-478c-930e-4dcb7a857643)
+Setting up Recruiter Profile:-
+![image](https://github.com/user-attachments/assets/43cb03b3-047e-4436-9f44-ae9ce37d9e59)
+
+## Watch the video below to view Whole application:-
+
+
+
+
+
