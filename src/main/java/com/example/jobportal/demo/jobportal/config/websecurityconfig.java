@@ -52,7 +52,7 @@ public class websecurityconfig {
                     logout.logoutUrl("/logout");
                     logout.logoutSuccessUrl("/");// // Specifies where to redirect after logout (e.g., to the home page)
                     //that prevents websites from making requests to a different domain than the one from which the page was served.
-                }).cors(Customizer.withDefaults())
+                }).cors(Customizer.withDefaults())//Allows frontend (React) to communicate with backend (Spring Boot).
                 .csrf(csrf->csrf.disable());
         return http.build();
     }
